@@ -24,7 +24,7 @@ This category expands the SenTestCase to add some macros to help testing asynchr
 
 The following example shows how to get the information from this repository using the GitHub API and then it converts it to a dictionary.
 
-```objective-c
+    ```objective-c
     - (void)testExample
     {
     	ASYNC_TEST_START;
@@ -51,4 +51,4 @@ The following example shows how to get the information from this repository usin
     	});
     	ASYNC_TEST_END;
     }
-```
+    ```
